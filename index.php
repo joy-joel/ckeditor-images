@@ -33,18 +33,6 @@
                 <h2>No posts available</h2>
             <?php endif ?>
 
-            <!-- <?php foreach ($posts as $post): ?>
-                <div class="post">
-                    <h3>
-                        <a href="details.php?id=<?php echo $post['id'] ?>"><?php echo $post['title']; ?></a>
-                    </h3>
-                    <p>
-
-                        <?php echo html_entity_decode(preg_replace('/\s+?(\S+)?$/', '', substr($post["body"], 0, 200))); ?>
-                    
-                    </p>
-                </div>
-            <?php endforeach ?> -->
 
             <!-- Form to create posts -->
             <form action="index.php" method="post" enctype="multipart/form-data" class="post-form">
